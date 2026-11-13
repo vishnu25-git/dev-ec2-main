@@ -57,5 +57,5 @@ jobs:
           context: .
           push: ${{ github.event_name == 'push' }}
           tags: |
-            ghcr.io/dhanasrirongali/dev-ec2-main:latest
-            ghcr.io/dhanasrirongali/dev-ec2-main:${{ github.sha }}
+            ghcr.io/vishnu25-git/dev-ec2-main:latest
+            ghcr.io/vishnu25-git/dev-ec2-main:${{ github.sha }}
